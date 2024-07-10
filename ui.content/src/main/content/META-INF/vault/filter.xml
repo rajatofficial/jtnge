@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/jtnge" mode="merge"/>
+    <filter root="/content/jtnge" mode="merge"/>
+    <filter root="/content/dam/jtnge" mode="merge">
+        <exclude pattern="/content/dam/jtnge(/.*)?"/>
+        <include pattern="/content/dam/jtnge/jcr:content(/.*)?"/>
+    </filter>
+    <filter root="/content/dam/jtnge/asset.jpg" mode="merge"/>
+    <filter root="/content/experience-fragments/jtnge" mode="merge"/>
+    <filter root="/content/dam/formsanddocuments-themes/jtnge" mode="merge"/>
+    <filter root="/content/dam/formsanddocuments-fdm/jtnge" mode="merge"/>
+    <filter root="/content/dam/jtnge/sample_logo.png" mode="merge"/>
+    <filter root="/content/dam/jtnge/sample_terms.png" mode="merge"/>
+    <filter root="/content/dam/jtnge/wknd_logo.png" mode="merge"/>
+</workspaceFilter>
